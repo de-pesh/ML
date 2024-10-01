@@ -44,3 +44,29 @@ This project demonstrates an unsupervised learning technique for **image anomaly
 1. Install dependencies:
    ```bash
    pip install tensorflow numpy matplotlib
+
+
+# Project 3: Unsupervised Image Segmentation Using CNNs and K-Means
+
+## Overview:
+This project performs **unsupervised image segmentation** by extracting visual features from images using CNNs and clustering the features with K-Means. The segmentation divides an image into meaningful regions without any labeled data, making it suitable for tasks like medical imaging, satellite imagery analysis, or general object detection.
+
+## Key Features:
+- CNN (VGG16) extracts high-level image features for segmentation.
+- K-Means is applied to segment the image based on the extracted features.
+- Fine-tuned for better segmentation using shallow CNN layers, superpixel segmentation, and post-processing with morphological operations.
+
+## Prerequisites:
+- Python 3.x
+- TensorFlow 2.x
+- Keras
+- Scikit-learn
+- Scikit-image
+- OpenCV
+- Matplotlib
+
+## Installation:
+1. Install the required libraries:
+   ```bash
+   pip install tensorflow scikit-learn scikit-image opencv-python matplotlib
+
